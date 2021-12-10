@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header, nav,section,article,aside{
+    display:block;
+}
+body{ 
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+h1{
+    font-size: 20px;
+    font-weight:900;
+  
+}
+h2{
+    font-size: 20px;
+    font-weight:600;
+    padding:2px
+}
+
+ .container{ 
+    background:goldenrod;
+    margin: 2% auto;
+    border: 1px solid red;
+    width: 97%;
+}
+
+header{
+    background:rebeccapurple;
+    padding:2px;
+}
+.encabezado{
+    border: 1px solid black;
+    padding: 20px;
+}
+.encabezado h1{
+    text-align: left;
+}
+.menu{
+    background:lightblue;
+    padding:20px 20px;
+    text-align: left;
+}
+.menu li {
+    list-style: none;
+    padding: 5px;
+    border: 1px solid black;
+    display:inline-block;
+    font: bold 15px verdana;
+    
+}
+
+.seccion {
+    background: white;
+    border: 1px solid black;
+    margin:30px;
+    width: 58%;
+    float:left;
+}
+.seccion article{
+    background:aqua;
+    padding:30px;
+    border: 1px solid blue;
+    margin-bottom: 20px;
+   
+}
+article footer{
+    text-align:right;
+    padding:20px;
+}
+.columna{
+   background:aqua;
+    border: 1px solid red;
+    width:32%;
+    float: left;
+    margin:30px;
+}
+.columna li{
+    list-style: none;
+    padding: 5px;
+    border: 1px solid black;
+    display:inline-block;
+    font: bold 15px verdana;
+}
+
+.pie{
+    clear: both;
+    padding:20px;
+    background:rebeccapurple;
+}
+
+ 
